@@ -1,3 +1,5 @@
+*.swp
+
 .modgit/
 app/code/community/Find/
 app/code/community/Phoenix/

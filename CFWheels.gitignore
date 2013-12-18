@@ -1,3 +1,5 @@
+*.swp
+
 # unpacked plugin folders
 plugins/**/*
 

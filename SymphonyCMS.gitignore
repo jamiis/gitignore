@@ -1,3 +1,5 @@
+*.swp
+
 manifest/cache/
 manifest/logs/
 manifest/tmp/

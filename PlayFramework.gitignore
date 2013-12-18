@@ -1,3 +1,5 @@
+*.swp
+
 # Ignore Play! working directory #
 bin
 db

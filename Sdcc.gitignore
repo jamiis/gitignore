@@ -1,3 +1,5 @@
+*.swp
+
 # SDCC stuff
 *.lnk
 *.lst

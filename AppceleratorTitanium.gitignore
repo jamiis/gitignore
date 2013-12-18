@@ -1,3 +1,5 @@
+*.swp
+
 # Build folder and log file
 build/
 build.log

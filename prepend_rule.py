@@ -10,6 +10,7 @@ def prepend(line, filename):
     # reopen file, deleting all content
     f = open(filename, 'w')
     f.write(line)
+    f.write('\n')
     # append original file contents
     f.write(original)
     f.close()
@@ -17,10 +18,15 @@ def prepend(line, filename):
 if __name__ == '__main__':
     rule = sys.argv[1]
 
-    # keep it simple, only allow adding 1 rule
-    if len(sys.argv) > 2:
-        print "warning: only adding 1 rule"
-    print "prepending rule: {0}".format(rule)
+    # TODO should change this to arg flag (-n or something)
+    if rule == 'newline':
+        rule = ''
+        print 'prepending newline'
+    else:
+        # keep it simple, only allow adding 1 rule
+        if len(sys.argv) > 2:
+            print "warning: only adding 1 rule"
+        print "prepending rule: {0}".format(rule)
 
     files = glob.glob('*.gitignore')
     for filename in files:

@@ -1,3 +1,5 @@
+*.swp
+
 .eunit
 deps
 *.o

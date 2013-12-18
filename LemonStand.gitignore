@@ -1,3 +1,5 @@
+*.swp
+
 boot.php
 index.php
 install.php

@@ -1,2 +1,4 @@
+*.swp
+
 fuel/app/logs/*/*/*
 fuel/app/cache/*/*
